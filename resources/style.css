@@ -1,0 +1,170 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5625rem;
+    text-decoration: underline;
+    opacity: .9;
+}
+
+/*Nav Bar*/
+
+nav {
+    position: fixed;
+    top: 0px;
+    display: inline-block;
+    width: 100%;
+    z-index: 3;
+    height: 80px;
+    background-color: white;
+    opacity: .7;
+    padding: 15px 0px;
+    margin: 0 auto;
+    color: rgb(41, 41, 41);
+    border-bottom: .5px white solid; 
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    padding-left: 10px;
+    display: block;
+    float: left;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    list-style: none;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a {
+    text-decoration: underline;
+    color: rgb(41, 41, 41);
+}
+
+/*Banner*/
+
+#banner {
+    background-image: url("https://media.istockphoto.com/id/1298643776/video/dark-beer-bubbles.jpg?s=640x640&k=20&c=BrEnvc0SQaE2PwZlKx34YvEXLpLZoKYKNpE_FiZxF2A=");
+    height: 243px;
+    width: 100%;
+    color: white;
+    opacity: .7;
+    margin: 150px auto;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    font-family: Roboto;
+}
+
+#banner h1 {
+    padding-top: 150px;
+    margin: 0 auto;
+    font-size: 65px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+ 
+#banner p {
+    padding-top: 0px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+/*Location*/
+
+#locations {
+    opacity: .95;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-location {
+    text-align: center;
+    font-family: "Noto serif";
+    width: 400px;
+    height: 500px;
+    border: .1px solid white;
+    opacity: .85;
+    background-color:rgb(41, 41, 41);
+    padding: 7px;
+}
+
+.container-location img {
+    width: 320px;
+    height: 210px;
+    padding: 15px;
+}
+
+/*Bubbies*/
+
+#dogs {
+    margin: 7.5rem 1.5625rem 7.5rem 1.5625rem;
+    border: .1px solid white;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/616/826/original/texture-of-focused-bubbles-in-foreground-and-blurred-bubbles-in-dark-background-in-4k-free-video.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9; 
+    height: 43.75rem;
+}
+
+
+.dogcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-dogs {
+    text-align: center;
+    font-family: "Noto serif";
+    width: 18.75rem; 
+    height: 25rem; 
+    padding: 0.4375rem;
+    opacity: .85;
+}
+
+.container-dogs img {
+    width: 20rem;
+    height: 18.75rem;
+    padding: 0.9375rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-dogs {
+        max-width: 10.75rem; 
+        max-height: 20rem; 
+    }
+
+    .container-dogs img {
+        max-width: 10rem;
+        max-height: 8.75rem;
+    }
+}
+
+/*Footer*/
+
+footer {
+    border-top: 1px solid white;
+    text-align: center;
+    font-family: Roboto;
+    padding: 10px 0;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
